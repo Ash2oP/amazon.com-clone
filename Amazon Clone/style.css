@@ -226,7 +226,6 @@ main a {
     justify-content: space-evenly;
 }
 .shop-section h2 {
-    padding-left: 15px;
     font-weight: 700;
     font-size: 25px;
     color: #0f1111;
@@ -259,12 +258,48 @@ main a {
     align-items: center;
 }
     .style-in span {
+        display: inline-block;
         width: 140px;
     }
     .style-in a {
         width: 90%;
     }
 
-/* Kitchen Appliance */
-
+/* Layout One */
+.layout-one {
+    height: 450px;
+    width: 23.25%;
+    padding: 20px 0px 15px;
+    background-color: white;
+}
+    .layout-one-header {
+        font-weight: 700;
+        font-size: 25px;
+        color: #0f1111;
+        padding: 0px 20px;
+        margin-bottom: 10px;
+    }
+    .layout-one-body {
+        height: 70%;
+        width: 100%;
+        padding: 0px 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+        .layout-one-section {
+            height: 50%;
+            width: 100%;
+        }
+            .layout-one-image {
+                height: 100%;
+                width: 60%;
+            }
+            .layout-one-image span {
+                width: 100%;
+            }
+        
+    .layout-one-footer {
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
 
