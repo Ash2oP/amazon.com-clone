@@ -236,69 +236,60 @@ main a {
     height: auto;
 }
 
-/* Style 2*/
-.style-out {
+/* Layout One */
+.layout {
     height: 480px;
     width: 23.25%;
     padding: 20px 0px 15px;
     background-color: white;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
 }
-
-/* Style 3*/
-.style-in {
-    height: 380px;
-    width: 370px;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-    .style-in span {
-        display: inline-block;
-        width: 140px;
-    }
-    .style-in a {
-        width: 90%;
-    }
-
-/* Layout One */
-.layout-one {
-    height: 450px;
-    width: 23.25%;
-    padding: 20px 0px 15px;
-    background-color: white;
-}
-    .layout-one-header {
+    .layout-header {
         font-weight: 700;
         font-size: 25px;
         color: #0f1111;
         padding: 0px 20px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
-    .layout-one-body {
-        height: 70%;
+    .layout-body {
+        height: 80%;
         width: 100%;
         padding: 0px 20px;
-        display: flex;
-        justify-content: space-evenly;
     }
-        .layout-one-section {
+        .layout-section {
             height: 50%;
             width: 100%;
+            margin-bottom: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
         }
-            .layout-one-image {
+        .layout-section span {
+        width: 100%;
+        }
+        .layout-section img {
+        transform: scale(1.1);
+        margin-bottom: 3px;
+        }
+            .layout-image-one {
                 height: 100%;
-                width: 60%;
+                width: 50%;
             }
-            .layout-one-image span {
-                width: 100%;
+            .layout-image-two {
+                height: 100%;
+                width: 95%;
+                margin-bottom: 10px;
             }
-        
-    .layout-one-footer {
+                .layout-image-two img {
+                    width: 99%;
+                }
+            .layout-image-three {
+                height: 100%;
+                width: 31%;
+            }
+                .layout-image-three img {
+                    width: 100%;
+                }
+    .layout-footer {
         padding: 0px 20px;
         margin-bottom: 20px;
     }
