@@ -260,7 +260,7 @@ main a {
         /* Section with 2 images height-50% */
         .layout-section-one {
             height: 50%;
-            width: 100%;
+            width: 90%;
             margin-bottom: 10px;
             display: flex;
             flex-wrap: wrap;
@@ -326,5 +326,57 @@ main hr {
     height: 30px;
     width: 100vw;
     border: none;
+}
+
+/* Footer */
+footer {
+    width: 100vw;
+    height: auto;
+    border: none;
+}
+.topbar {
+    background-color: #37475a;
+    height: 3rem;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+    .topbar a {
+    text-decoration: none;
+    color: white;
+    }
+.link-one {
+    height: 32rem;
+    width: 100vw;
+    background-color: #232f3e;
+}
+.link-one li {
+    list-style: none;
+    padding: 0.3rem 0rem;
+}
+.link-one a {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.link-two {
+    height: 28rem;
+    width: 100vw;
+    background-color: #131a22;
+}
+.link-container-one {
+    height: 70%;
+    width: 100%;
+    margin: 0rem 1rem;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+}
+.link-box {
+    height: auto;
+    width: 23%;
+    color: white;
+}
+.footer-line {
+    border-top: 1px solid #3a4553;
 }
 
