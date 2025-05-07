@@ -224,6 +224,8 @@ main a {
     height: auto;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
 }
 .shop-section h2 {
     font-weight: 700;
@@ -238,7 +240,7 @@ main a {
 
 /* Layout One */
 .layout {
-    height: 480px;
+    height: auto;
     width: 23.25%;
     padding: 20px 0px 15px;
     background-color: white;
@@ -251,11 +253,12 @@ main a {
         margin-bottom: 20px;
     }
     .layout-body {
-        height: 80%;
+        height: auto;
         width: 100%;
         padding: 0px 20px;
     }
-        .layout-section {
+        /* Section with 2 images height-50% */
+        .layout-section-one {
             height: 50%;
             width: 100%;
             margin-bottom: 10px;
@@ -263,10 +266,10 @@ main a {
             flex-wrap: wrap;
             justify-content: space-evenly;
         }
-        .layout-section span {
+        .layout-section-one span {
         width: 100%;
         }
-        .layout-section img {
+        .layout-section-one img {
         transform: scale(1.1);
         margin-bottom: 3px;
         }
@@ -280,6 +283,7 @@ main a {
                 margin-bottom: 10px;
             }
                 .layout-image-two img {
+                    height: auto;
                     width: 99%;
                 }
             .layout-image-three {
@@ -288,9 +292,90 @@ main a {
             }
                 .layout-image-three img {
                     width: 100%;
+                    height: auto;
                 }
+        /* Section with one image height-60% */
+        .layout-section-two {
+            height: 50%;
+            width: 100%;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        /* Section with three images height-40% */
+        .layout-section-three {
+            height: 40%;
+            width: 100%;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+        /* Section with one image height-100% */
+        .layout-section-four {
+            height: 150%;
+            width: 100%;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: stretch;
+        }
     .layout-footer {
         padding: 0px 20px;
         margin-bottom: 20px;
     }
+main hr {
+    height: 30px;
+    width: 100vw;
+    border: none;
+}
 
+/* Footer */
+footer {
+    width: 100vw;
+    height: auto;
+    border: none;
+}
+.topbar {
+    background-color: #37475a;
+    height: 3rem;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+    .topbar a {
+    text-decoration: none;
+    color: white;
+    }
+.link-one {
+    height: 32rem;
+    width: 100vw;
+    background-color: #232f3e;
+}
+.link-one li {
+    list-style: none;
+    padding: 0.3rem 0rem;
+}
+.link-one a {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+.link-two {
+    height: 28rem;
+    width: 100vw;
+    background-color: #131a22;
+}
+.link-container-one {
+    height: 70%;
+    width: 100%;
+    margin: 0rem 1rem;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+}
+.link-box {
+    height: auto;
+    width: 23%;
+    color: white;
+}
+.footer-line {
+    border-top: 1px solid #3a4553;
+}
