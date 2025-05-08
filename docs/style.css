@@ -252,6 +252,9 @@ main a {
     width: 23.25%;
     padding: 20px 0px 15px;
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
     .layout-header {
         font-weight: 700;
@@ -329,6 +332,7 @@ main a {
     .layout-footer {
         padding: 0px 20px;
         margin-bottom: 20px;
+        align-self: flex-end;
     }
 main hr {
     height: 30px;
