@@ -226,6 +226,7 @@ main a {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 1rem;
+    background-color: #e6e6e6;
 }
 .shop-section h2 {
     font-weight: 700;
