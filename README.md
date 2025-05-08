@@ -1,2 +1,3 @@
-This is my first repository
-My name is Ashish Raj Singh
+This is my first repository.
+Author-Ashish Raj Singh
+
