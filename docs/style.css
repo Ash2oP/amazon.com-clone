@@ -217,7 +217,11 @@ main a {
         position: relative;
         top: 310px;
     }
-    
+    .hero-msg a:hover {
+        text-decoration: underline;
+        color: #37475a;
+    }
+
 /* Shopping Section */
 .shop-section {
     width: 98.5vw;
@@ -237,6 +241,9 @@ main a {
 .shop-section img {
     width: 170px;
     height: auto;
+}
+.shop-section a:hover {
+    color: #37475a;
 }
 
 /* Layout One */
